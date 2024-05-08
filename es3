@@ -1,0 +1,3 @@
+update book set stock_count=9 
+ where book_id=2;
+ update book set price=10.99 where book_id=2

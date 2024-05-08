@@ -1,0 +1,11 @@
+REATE TABLE book ( book_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                   title TEXT , 
+                   author TEXT,
+                   genre TEXT,
+                   published_year INTEGER,
+                   isbn TEXT,
+                   price NUMERIC, 
+                   rating FLOAT, 
+                   stock_count INTEGER,
+                   publisher TEXT,
+                   number_of_pages INTEGER);
